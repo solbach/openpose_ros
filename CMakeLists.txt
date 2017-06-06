@@ -22,8 +22,8 @@ find_package(catkin REQUIRED COMPONENTS
 find_package(CUDA REQUIRED) # Uncomment this line if you have trouble compiling
 find_package(OpenCV REQUIRED)
 
-set(CAFFE_DIR /home/markus/git/jtl/Fallen\ Person/CMU-OpenPose/openpose/3rdparty/caffe)
-set(OPENPOSE_DIR /home/markus/git/jtl/Fallen\ Person/CMU-OpenPose/openpose)
+set(CAFFE_DIR /home/markus/git/jtl/Fallen\ Person/tue-robotics/openpose/3rdparty/caffe)
+set(OPENPOSE_DIR /home/markus/git/jtl/Fallen\ Person/tue-robotics/openpose)
 
 
 set(CAFFE_INCLUDE_DIRS ${CAFFE_DIR}/distribute/include)
